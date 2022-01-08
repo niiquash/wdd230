@@ -1,0 +1,49 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgb(85, 129, 211);
+    color: #fff;
+    box-shadow: 3px 3px 4px rgb(24, 23, 23);
+}
+
+header div {
+    display: flex;
+    flex-basis: 50%;
+}
+
+header div img {
+    border: 1px solid white;
+    margin: 5px;
+}
+.item-2 {
+    align-self: center;
+}
+
+footer {
+    background-color: rgb(85, 129, 211);
+    color: #fff;
+    padding: 3px;
+    box-shadow: 3px 3px 4px rgb(24, 23, 23);
+
+}
+
+main h2 {
+    border-bottom: 1px solid black;
+    margin-top: -10px;
+    text-shadow: 2px 2px 2px rgb(207, 203, 203);
+}
+
+main p {
+    border-top: 1px solid black;
+    margin-bottom: -10px;
+}
