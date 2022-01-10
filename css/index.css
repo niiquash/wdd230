@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'Open Sans', sans-serif
 }
 
 header, main, footer {
@@ -11,7 +14,7 @@ header, main, footer {
 }
 
 header {
-    background-color: rgb(85, 129, 211);
+    background-color: rgb(143, 177, 241);
     color: #fff;
     box-shadow: 3px 3px 4px rgb(24, 23, 23);
 }
@@ -21,19 +24,28 @@ header div {
     flex-basis: 50%;
 }
 
-header div img {
-    border: 1px solid white;
+.my-image {
+    
     margin: 5px;
+    flex: 1;
+}
+
+.my-name {
+    flex: 2;
+    align-items: flex-end;
+    text-shadow: 2px 2px 5px rgb(24, 23, 23)
+
 }
 .item-2 {
     align-self: center;
 }
 
 footer {
-    background-color: rgb(85, 129, 211);
+    background-color: rgb(143, 177, 241);
     color: #fff;
     padding: 3px;
     box-shadow: 3px 3px 4px rgb(24, 23, 23);
+    text-shadow: 2px 2px 5px rgb(24, 23, 23)
 
 }
 
