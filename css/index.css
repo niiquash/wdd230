@@ -59,3 +59,9 @@ main p {
     border-top: 1px solid black;
     margin-bottom: -10px;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
