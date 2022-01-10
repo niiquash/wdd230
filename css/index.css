@@ -16,7 +16,7 @@ header, main, footer {
 header {
     background-color: rgb(143, 177, 241);
     color: #fff;
-    box-shadow: 3px 3px 4px rgb(24, 23, 23);
+    box-shadow: 3px 3px 4px rgb(153, 152, 152);
 }
 
 header div {
@@ -44,8 +44,8 @@ footer {
     background-color: rgb(143, 177, 241);
     color: #fff;
     padding: 3px;
-    box-shadow: 3px 3px 4px rgb(24, 23, 23);
-    text-shadow: 2px 2px 5px rgb(24, 23, 23)
+    box-shadow: 3px 3px 4px rgb(153, 152, 152);
+        text-shadow: 2px 2px 5px rgb(24, 23, 23)
 
 }
 
