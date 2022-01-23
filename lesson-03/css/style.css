@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 0 5px;
+    margin: 0 50px;
     padding: 0;
     font-family: "Lato", sans-serif;
     font-size: 16px;
@@ -88,6 +88,71 @@ body {
 
 .card4 img {
     width: 50%;
+}
+
+.color {
+    display: flex;
+    flex: 1 2;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.color .card {
+    background-color: rgb(165, 165, 165);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    align-items: center;
+}
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5,
+.color6 {
+    display: flex;
+}
+
+.color .card div {
+    padding-left: 5px; 
+}
+
+.color1-color {
+    background-color: rgb(5, 3, 109);
+    width: 100%;
+    height: 50px;
+}
+
+.color2-color {
+    background-color: rgb(34, 3, 175);
+    width: 100%;
+    height: 50px;
+}
+
+.color3-color {
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+}
+
+.color4-color {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+}
+
+.color5-color {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+}
+
+.color6-color {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
 }
 
 /* Footer */
