@@ -54,17 +54,10 @@ body {
 
 .menu-container a:hover {
     color: rgb(117, 248, 237);
-}
-
-.menu-container a:active {
-    color: rgb(117, 248, 237);
-}
-
-.menu-container li:hover {
     border-bottom: 1px solid white;
 }
 
-/* Main */
+/* Main - Index */
 .main-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -74,7 +67,7 @@ body {
     margin: .4rem 0rem;
 }
 
-.card {
+.card, .scenario-card {
     margin: 10px;
     padding: 10px 10px;
     box-shadow: 0 0 10px rgb(168, 168, 168);
@@ -89,6 +82,32 @@ body {
 .card4 img {
     width: 50%;
 }
+
+/* Main - Audience */
+.target3 div img {
+    width: 100%;
+}
+
+.target2 div img {
+    width: 100%;
+}
+
+.audience-container {
+    display: grid;
+    grid-template-columns: 1fr
+}
+
+.target1 {
+    grid-column: 1;
+}
+
+.scenario-card {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+/* Main - Color */
 
 .color {
     display: flex;
@@ -153,6 +172,19 @@ body {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 50px;
+}
+
+
+/* Main - Typography */
+
+.typo1 {
+    box-shadow: 0 0 10px #333;
+    margin: 0 10px;
+    padding: 5px 5px;
+}
+
+.typo1 p {
+    font-weight: bold;
 }
 
 /* Footer */

@@ -3,3 +3,14 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+
+.menu-container {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 58, 58);
+    border-radius: 2px;
+}
+
