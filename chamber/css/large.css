@@ -1,0 +1,23 @@
+@media only screen and (min-width: 64rem) {
+    #navBtn {
+        display: none;
+    }
+
+    nav ul li a {
+        border-top: none;
+        border-right: 1px solid rgba(0,0,0,0.2);
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        width: 100%;
+    }
+    
+    .fa {
+        margin: 5px 2px;
+    }
+
+    .fa-linkedin-square {
+        margin-right: 2rem;
+    }
+}

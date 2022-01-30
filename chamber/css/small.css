@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+/*     border: .2px solid #333; */
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+.logo-and-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(12, 31, 206);
+}
+
+.fa {
+    color: white;
+    border: none;
+    width: 1.5rem;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.btn-area div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-and-name {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 2vw;
+}
+
+.page-title>h2{
+    margin-bottom: -1rem;
+}
+
+/* Date area */
+.date-area {
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.3);
+}
+
+p#headerdate {
+    font-weight: bold;
+    justify-items: center;
+}
+
+/* Button */
+#navBtn {
+    margin: .2rem 5vw;
+    background: transparent;
+    border: 1px solid white;
+    padding: 1rem;
+    width: 3rem;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    background: rgb(36, 74, 240);
+/*     transition: all 0.2s ease-out; */
+}
+
+nav ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: .8rem 2vw;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    transition: all 0.2s ease-out;
+}
+
+nav ul li a:hover{
+    background-color: rgb(51, 65, 146);
+    
+}
+
+/* Main */
+.card {
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 1rem 2vw;
+    padding: 1rem 2vw;
+}
+
+/* Images */
+.banner>img,
+footer section div>img {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+.banner>img {
+    margin-right: 1rem;
+}
+
+
+/* Footer */
+footer {
+    background: rgb(36, 74, 240);
+    color: white;
+    padding: 1rem 2vw;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
