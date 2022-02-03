@@ -110,6 +110,11 @@ nav ul li a:hover{
     background: rgb(236, 233, 233);
 }
 
+.card .spotlight {
+    border: 1px solid black;
+    padding: 10px;
+}
+
 /* Images */
 .banner>img,
 footer section div>img {
