@@ -72,8 +72,6 @@ p#headerdate {
 /* Navigation */
 nav {
     background-color: rgb(53, 91, 148);
-
-/*     transition: all 0.2s ease-out; */
 }
 
 nav ul {
@@ -111,13 +109,15 @@ nav ul li a:hover{
     margin: 1rem 2vw;
     padding: 1rem 2vw;
     box-shadow: 0 0 2px #333;
-    background: linear-gradient( rgb(8, 35, 145) 20%, rgb(107, 119, 165))
+    background: linear-gradient( rgb(8, 35, 145) 20%, rgb(107, 119, 165));
+    border-radius: 10px;
 }
 
 
 .card1 {
+    height: 25vh;
     background-image: url(../images/banner.jpg);
-    background-size: 100%;
+    background-size: cover;
     color: white;
     position: relative;
 }
@@ -133,7 +133,7 @@ nav ul li a:hover{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    background-color: rgb(53, 91, 148);
+    background-color: rgb(9, 114, 6);
     padding: 10px;
     border-radius: 10px;
     right: 5px;
@@ -142,7 +142,9 @@ nav ul li a:hover{
 }
 
 .card1 a:hover {
-    background-color: rgb(85, 114, 156);
+    background-color: rgb(7, 167, 68);
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+
 }
 
 
