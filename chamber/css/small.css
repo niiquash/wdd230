@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(12, 31, 206);
+    background: rgb(3, 13, 99);
 }
 
 .fa {
@@ -53,7 +53,10 @@ body {
 
 p#headerdate {
     font-weight: bold;
-    padding-left: 40%;
+    text-align: center;
+    border: 1px solid #333;
+    padding: 10px 5px;
+    margin: 0;
 }
 
 /* Button */
@@ -68,7 +71,8 @@ p#headerdate {
 
 /* Navigation */
 nav {
-    background: rgb(36, 74, 240);
+    background-color: rgb(53, 91, 148);
+
 /*     transition: all 0.2s ease-out; */
 }
 
@@ -107,17 +111,70 @@ nav ul li a:hover{
     margin: 1rem 2vw;
     padding: 1rem 2vw;
     box-shadow: 0 0 2px #333;
-    background: rgb(236, 233, 233);
+    background: linear-gradient( rgb(2, 9, 37) 20%, rgb(8, 35, 145))
 }
 
-.card .spotlight {
-    border: 1px solid black;
+
+.card1 {
+    background-image: url(../images/banner.jpg);
+    background-size: 100%;
+    color: white;
+    position: relative;
+}
+
+.card1 h2 {
+    background-color: rgba(0,0,0,0.3);
+    display: inline;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.card1 a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(53, 91, 148);
     padding: 10px;
+    border-radius: 10px;
+    right: 5px;
+    bottom: 10px;
+    transition: all 0.2s ease-out;
+}
+
+.card1 a:hover {
+    background-color: rgb(85, 114, 156);
+}
+
+
+.card .spotlight {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    color: white;
+    line-height: 1.5rem;
+    text-shadow: 0 0 5px#333;
+    text-align: center;
+}
+
+/* spotlight images */
+.company-image {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.company-image img {
+    width: 100%;
 }
 
 /* Images */
 .banner>img,
-footer section div>img {
+footer div>img {
     max-width: 100px;
     border-radius: 10px;
 }
@@ -129,14 +186,36 @@ footer section div>img {
 
 /* Footer */
 footer {
-    background: rgb(36, 74, 240);
+    background: rgb(3, 13, 99);
     color: white;
     padding: 1rem 2vw;
+    text-align: center;
 }
 
-footer section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.fa .fa-map-marker {
+    width: 10%;
+    padding: 0 2px;
+}
+
+footer .contact p.phone {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+footer .contact a {
+    text-decoration: none;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+footer .contact a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.copyright {
+    border-top: 1px solid white;
+    padding: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
