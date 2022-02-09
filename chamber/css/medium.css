@@ -1,12 +1,18 @@
 @media only screen and (min-width: 40rem) {
-    /* nav ul#primaryNav {
+    .medium-large-footer {
         display: flex;
-        border-left: 1px solid rgba(0,0,0,0.3)
-    } */
+        justify-content: space-around;
+        align-items: center
+    }
 
-    /* nav ul li a {
-        border: none; 
-        border-right: 1px solid rgba(0,0,0,0.3)
-    } */
-    
+    .footer-image-name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-title h3 {
+        margin-top: 0;
+        margin-left: 20px;
+    }
 }
