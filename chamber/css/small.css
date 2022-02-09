@@ -28,6 +28,15 @@ body {
     margin: 5px 2px;
 }
 
+#meetingBanner {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 10px;
+    margin: 2px 0;
+}
+
 .btn-area div {
     display: flex;
     align-items: center;
@@ -109,7 +118,7 @@ nav ul li a:hover{
     margin: 1rem 2vw;
     padding: 1rem 2vw;
     box-shadow: 0 0 2px #333;
-    background: linear-gradient( rgb(8, 35, 145) 20%, rgb(107, 119, 165));
+    background: linear-gradient( rgb(63, 90, 199) 20%, rgb(5, 28, 120));
     border-radius: 10px;
 }
 
@@ -133,7 +142,8 @@ nav ul li a:hover{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    background-color: rgb(9, 114, 6);
+    font-size: larger;
+    background-color: rgb(7, 167, 68);
     padding: 10px;
     border-radius: 10px;
     right: 5px;
@@ -142,7 +152,7 @@ nav ul li a:hover{
 }
 
 .card1 a:hover {
-    background-color: rgb(7, 167, 68);
+    background-color: rgb(9, 114, 6);
     text-shadow: 0 0 20px rgb(0, 0, 0);
 
 }

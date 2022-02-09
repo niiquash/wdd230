@@ -8,3 +8,11 @@ function toggleMenu() {
 
 const x = document.getElementById("navBtn");
 x.onclick = toggleMenu;
+
+// Code for greetings banner
+const d = new Date();
+let day = d.getDay();
+greeting = document.getElementById("meetingBanner");
+if (day == 1 || day == 2) {
+    greeting.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}
