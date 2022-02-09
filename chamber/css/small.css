@@ -179,6 +179,10 @@ nav ul li a:hover{
     text-align: center;
 }
 
+.card5 a {
+    display: none;
+}
+
 /* spotlight images */
 .company-image {
     width: 50%;
