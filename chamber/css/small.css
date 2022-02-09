@@ -35,6 +35,11 @@ body {
     text-align: center;
     padding: 10px;
     margin: 2px 0;
+    display: none;
+}
+
+#meetingBanner.True{
+    display: block;
 }
 
 .btn-area div {
