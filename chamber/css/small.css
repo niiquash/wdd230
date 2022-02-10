@@ -118,18 +118,22 @@ nav ul li a:hover{
 }
 
 /* Main */
+
 .card {
     border: 1px solid rgba(0,0,0,0.3);
     margin: 1rem 2vw;
     padding: 1rem 2vw;
     box-shadow: 0 0 2px #333;
     background: linear-gradient( rgb(63, 90, 199) 20%, rgb(5, 28, 120));
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
+.card6 {
+    background: rgb(5, 28, 120)
+}
 
 .card1 {
-    height: 25vh;
+    height: 50vh;
     background-image: url(../images/banner.jpg);
     background-size: cover;
     color: white;
@@ -166,6 +170,8 @@ nav ul li a:hover{
 .card .spotlight {
     border: 1px solid white;
     padding: 10px;
+    background: linear-gradient( rgb(63, 90, 199) 20%, rgb(5, 28, 120));
+
 }
 
 .card2,
@@ -181,6 +187,12 @@ nav ul li a:hover{
 
 .card5 a {
     display: none;
+}
+
+
+.card3 {
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 /* spotlight images */
@@ -204,6 +216,23 @@ footer div>img {
     margin-right: 1rem;
 }
 
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.weather-image img{
+    width: 10vw;
+}
+
+.weather-description h2 {
+    margin-top: 0;
+    width: 30%;
+    margin: 0 auto;
+}
 
 /* Footer */
 footer {
