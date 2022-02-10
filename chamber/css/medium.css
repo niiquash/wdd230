@@ -5,6 +5,11 @@
         align-items: center
     }
 
+    .card6 .spotlt{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
     .footer-image-name {
         display: flex;
         justify-content: space-between;
