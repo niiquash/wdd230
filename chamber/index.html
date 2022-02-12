@@ -63,6 +63,11 @@
     <main class="main-area">
         <div class="main-container">
             <div class="card card1">
+                    <!-- <img src="images/small.jpg" alt="three people in a meeting room."
+                        srcset="images/small.jpg 670w,
+                                images/medium.jpg 900w,
+                                images/large.jpg 1000w"
+                                sizes> -->
                 <h2>Welcome to Candor Corp!</h2>
                 <a href="#" class="banner-btn">Join the Chamber</a>
             </div>
@@ -85,6 +90,10 @@
                 </section>
                 <div class="weather-description">
                     <h2>Partly Cloudy</h2>
+                </div>
+                <div class="wind">
+                    <h2>Wind Speed: <span id="wind-speed"></span>km/h</h2>
+                    <h2>Wind Chill: <span id="wind-chill"></span></h2>
                 </div>
             </div>
 
@@ -164,6 +173,7 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>

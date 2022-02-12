@@ -134,17 +134,24 @@ nav ul li a:hover{
 }
 
 .card1 {
-    height: 50vh;
-    background-image: url(../images/banner.jpg);
-    background-size: cover;
-    color: white;
+    height: 40vh;
+    padding: 0;
     position: relative;
+    background-image: url(../images/small.jpg);
+    background-size: cover;
 }
+
+/* .card1 img{
+    width: 100%;
+} */
 
 .card1 h2 {
     background-color: rgba(0,0,0,0.3);
     display: inline;
     text-shadow: 0 0 20px rgb(0, 0, 0);
+    position: absolute;
+    color: white;
+    left: 20px;
 }
 
 .card1 a {
