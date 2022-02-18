@@ -278,3 +278,25 @@ footer .contact a:hover {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+/* Discover Page */
+.dcard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 1rem 2vw;
+    padding: 1rem 2vw;
+    box-shadow: 0 0 2px #333;
+    background: white;
+    border-radius: 5px;
+}
+
+.dcard .picture-element img[data-src]{
+    width: 100%;
+    filter: blur(.2rem)
+}
+
+.dcard .picture-element img{
+    width: 100%;
+    filter: blur(0);
+}

@@ -106,4 +106,20 @@
         flex-wrap: wrap;
     }
 
+    .dcard {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+
+    .dcard p {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .dcard .picture-element {
+        width: 50%;
+    }
+
 }
