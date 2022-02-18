@@ -5,12 +5,6 @@
         align-items: center
     }
 
-    /* .card1 {
-        height: 60vh;
-        background-image: url(../images/large.jpg);
-        background-size: cover;
-    } */
-
     .card6 .spotlt{
         display: flex;
         flex-wrap: nowrap;
@@ -25,5 +19,9 @@
     .footer-title h3 {
         margin-top: 0;
         margin-left: 20px;
+    }
+
+    .dcard .picture-element:hover {
+        box-shadow: 0 0 20px black;
     }
 }
