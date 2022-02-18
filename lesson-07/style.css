@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+picture img[data-src] {
+    filter: blur(5px);
+}
+
+picture img {
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
