@@ -5,11 +5,11 @@
         align-items: center
     }
 
-    .card1 {
+    /* .card1 {
         height: 60vh;
         background-image: url(../images/large.jpg);
         background-size: cover;
-    }
+    } */
 
     .card6 .spotlt{
         display: flex;

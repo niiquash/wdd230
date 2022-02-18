@@ -63,11 +63,12 @@
     <main class="main-area">
         <div class="main-container">
             <div class="card card1">
-                    <!-- <img src="images/small.jpg" alt="three people in a meeting room."
-                        srcset="images/small.jpg 670w,
-                                images/medium.jpg 900w,
-                                images/large.jpg 1000w"
-                                sizes> -->
+                <picture>
+                    <source srcset="images/banner-600.png" media="(min-width: 420px) and (max-width: 670px)">
+                    <source srcset="images/banner-1000.png" media="(min-width: 670px) and (max-width: 1000px)">
+                    <source srcset="images/banner-800.png" media="(min-width: 1000px)">
+                    <img src="images/banner-600.png" alt="An emmaculate highway-roundabout road network.">
+                </picture>
                 <h2>Welcome to Candor Corp!</h2>
                 <a href="#" class="banner-btn">Join the Chamber</a>
             </div>
@@ -110,7 +111,12 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quis id blanditiis? Ipsa, soluta
                     consequuntur animi hic ullam est similique.</p>
                 <a href="#" class="joinus-btn">Join Us</a>
+            </div>
 
+            <div class="card card7">
+                <h2>Value for Money</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quis id blanditiis? Ipsa, soluta
+                    consequuntur animi hic ullam est similique.</p>
             </div>
 
             <div class="card card6">

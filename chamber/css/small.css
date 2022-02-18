@@ -134,16 +134,16 @@ nav ul li a:hover{
 }
 
 .card1 {
-    height: 40vh;
-    padding: 0;
     position: relative;
-    background-image: url(../images/small.jpg);
-    background-size: cover;
+    padding: 0;
 }
 
-/* .card1 img{
+picture img {
+    margin: 0;
+    padding: 0;
     width: 100%;
-} */
+    height: 100%;
+}
 
 .card1 h2 {
     background-color: rgba(0,0,0,0.3);
@@ -186,7 +186,8 @@ nav ul li a:hover{
 .card3,
 .card4,
 .card5,
-.card6 {
+.card6,
+.card7 {
     color: white;
     line-height: 1.5rem;
     text-shadow: 0 0 5px#333;
