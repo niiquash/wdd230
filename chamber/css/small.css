@@ -300,3 +300,13 @@ footer .contact a:hover {
     width: 100%;
     filter: blur(0);
 }
+
+/* Discovery - Last Visited */
+.days-elapsed {
+    margin-left: 2vw;
+    font-weight: bold;
+}
+
+.last-visited {
+    color: red;
+}
