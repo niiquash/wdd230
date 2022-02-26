@@ -9,7 +9,7 @@ body {
     background: #eee;
 }
 
-/* Header */
+/*--------------------------- Header -----------------------*/
 .logo-and-button {
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@ body {
     margin-bottom: -1rem;
 }
 
-/* Date area */
+/*--------------------- Date area -------------------*/
 .date-area {
     border: 1px solid rgba(0,0,0,0.1);
     background: rgba(0,0,0,0.3);
@@ -74,7 +74,7 @@ p#headerdate {
     margin: 0;
 }
 
-/* Button */
+/*----------------------- Button-------------------- */
 #navBtn {
     margin: .2rem 5vw;
     background: transparent;
@@ -84,7 +84,7 @@ p#headerdate {
     color: white;
 }
 
-/* Navigation */
+/*------------------------- Navigation ---------------*/
 nav {
     background-color: rgb(53, 91, 148);
 }
@@ -118,7 +118,7 @@ nav ul li a:hover{
     
 }
 
-/* Main */
+/*-------------------- Main------------------------ */
 
 .card {
     border: 1px solid rgba(0,0,0,0.3);
@@ -301,7 +301,7 @@ footer .contact a:hover {
     filter: blur(0);
 }
 
-/* Discovery - Last Visited */
+/*-------------- Discovery - Last Visited ----------*/
 .days-elapsed {
     margin-left: 2vw;
     font-weight: bold;
@@ -320,3 +320,91 @@ footer .contact a:hover {
     background: white;
     border-radius: 5px;
 }
+
+/* ------------------- FORM --------------------- */
+form {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #fff;
+}
+
+form fieldset {
+    margin: 2rem 3%;
+    border: 2px solid rgb(3, 13, 99);
+    border-radius: 5px;
+    padding: 1rem 3%;
+}
+
+form legend {
+    color: rgb(3, 13, 99);
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color:rgb(3, 13, 99);
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid rgb(3, 13, 99);
+    border-radius: 3px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1)
+}
+
+form label.sbs {
+    display: block;
+    padding: .7rem 0;
+    color:rgb(3, 13, 99);
+}
+
+form label textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+form input.submitBtn {
+    border: none;
+	background-color: rgb(7, 167, 68);
+	color: white;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 100%;
+	max-width: 20rem;
+    transition: all 0.2s ease-out;
+}
+
+form input.submitBtn:hover {
+    background-color: rgb(4, 100, 41);
+}
+
+form div.levels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+}
+
+.np-level,
+.bronze-level,
+.silver-level,
+.gold-level {
+    border: 2px solid gold;
+    background: linear-gradient( rgb(63, 90, 199) 10%, rgb(5, 28, 120));
+    color: white;
+    margin: 3px;
+    padding: 1rem;
+}
+
+
+
+
