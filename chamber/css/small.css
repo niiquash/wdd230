@@ -322,6 +322,14 @@ footer .contact a:hover {
 }
 
 /* ------------------- FORM --------------------- */
+.form-area h1.form-header {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(120deg, rgb(6, 29, 122), rgb(118, 120, 5));
+}
+
 form {
     margin: 10px 10px;
     padding: 10px 10px;
