@@ -375,6 +375,14 @@ form label.sbs {
     color:rgb(3, 13, 99);
 }
 
+form label.top input:required {
+	border-bottom: red solid 3px;
+}
+
+form label.top input:required:valid {
+	border-bottom: green solid 3px;
+}
+
 form label textarea {
     width: 100%;
     min-height: 100px;
