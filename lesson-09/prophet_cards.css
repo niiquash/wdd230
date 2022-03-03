@@ -13,13 +13,14 @@ body {
 .cards {
     display: flex;
     flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
 }
 
 div section {
     border: 2px solid red;
     padding: 10px;
-    margin: 8px auto;
-    width: 90vw;
+    margin: 5px;
     background-color: beige;
     text-align: center;
 }
