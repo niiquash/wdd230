@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div section {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 8px auto;
+    width: 90vw;
+    background-color: beige;
+    text-align: center;
+}
