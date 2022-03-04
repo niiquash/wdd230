@@ -35,12 +35,12 @@ function displayBusinesses(business) {
     card.appendChild(biznesWebsite);
 
     // Append card to the existing div.
-    document.querySelector("div.list").appendChild(card);
+    document.querySelector("div.cards").appendChild(card);
 }
 
 const gridView = document.querySelector("#directory-card");
 const listView = document.querySelector("#directory-list");
-const currentDivView = document.querySelector(".list");
+const currentDivView = document.querySelector(".cards");
 
 gridView.addEventListener('click', togridView);
 

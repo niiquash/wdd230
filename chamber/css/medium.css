@@ -25,4 +25,24 @@
         box-shadow: 0 0 20px black;
     }
 
+    /* ---------------------- Directory - listView ------------------------------ */
+
+    div.list section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        gap: 20px;
+    }
+
+    div.list section:nth-child(odd) {
+        background-color:rgba(3, 13, 99, 0.2);
+    }
+    /* ---------------------- Directory - gridView ------------------------------ */
+    div.cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+
 }

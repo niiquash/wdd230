@@ -436,6 +436,8 @@ div.directory-btns {
 div.directory-btns button {
     background-color: rgba(3, 13, 99, 1);
     border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 div.directory-btns button:hover {

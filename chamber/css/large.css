@@ -131,11 +131,17 @@
         max-width: 50vw;
     }
 
-    .np-level,
-.bronze-level,
-.silver-level,
-.gold-level {
-    max-width: 100vw;
-}
+        .np-level,
+    .bronze-level,
+    .silver-level,
+    .gold-level {
+        max-width: 100vw;
+    }
+
+    /* ---------------------- Directory - gridView ------------------------------ */
+    div.cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 
 }
