@@ -198,7 +198,11 @@ picture img {
     display: none;
 }
 
-
+.card3 section{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 .card3 .weather-image{
     background-color: rgba(0,0,0,0.2);
     font-size: 1.5rem;
