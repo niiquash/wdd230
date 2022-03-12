@@ -199,9 +199,9 @@ picture img {
 }
 
 
-.card3 {
-    margin-left: 20vw;
-    margin-right: 20vw;
+.card3 .weather-image{
+    background-color: rgba(0,0,0,0.2);
+    font-size: 1.5rem;
 }
 
 /* spotlight images */
